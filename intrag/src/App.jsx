@@ -1,5 +1,5 @@
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
-import { AboutUs } from "./page/AboutUs";
+import { AboutUs } from "./page/HomeAbouUs";
 import { Contact } from "./page/Contact";
 import { MyLayout } from "./page/MyLayout";
 import { Products } from "./page/Products";
