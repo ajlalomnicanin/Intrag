@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import { AiFillMessage } from "react-icons/ai";
+import "../style/Navbar.css";
 
 function Navbar() {
   return (
-    <>
+    <div className="navbar-container">
       <img src="" alt="" />
       <nav>
         <ul>
@@ -19,7 +20,7 @@ function Navbar() {
         </ul>
       </nav>
       <AiFillMessage />
-    </>
+    </div>
   );
 }
 

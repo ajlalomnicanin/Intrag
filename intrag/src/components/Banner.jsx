@@ -1,9 +1,12 @@
-import mainRight from "./mainRight.jpg";
-function Main() {
+import bannerphoto from "./photo/bannerRight.jpg";
+
+function Banner() {
   return (
     <div>
       <div>
-        <h1>Vizualni identitet iz snova</h1>
+        <h1 className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-red-500 rounded-full">
+          Vizualni identitet iz snova
+        </h1>
         <p>
           Sa strašću prema grafici i vrhunskom digitalnom štampom, pružamo
           personalizovane usluge dizajna i štampe koje ističu vaš brend.
@@ -11,10 +14,10 @@ function Main() {
         <button>Upit za narudžbu</button>
       </div>
       <div>
-        <img src={mainRight} alt="" />
+        <img src={bannerphoto} alt="" />
       </div>
     </div>
   );
 }
 
-export default Main;
+export default Banner;

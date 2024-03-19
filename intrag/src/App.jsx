@@ -3,6 +3,7 @@ import { AboutUs } from "./page/HomeAbouUs";
 import { Contact } from "./page/Contact";
 import { MyLayout } from "./page/MyLayout";
 import { Products } from "./page/Products";
+import "./App.css";
 
 const router = createBrowserRouter([
   {
