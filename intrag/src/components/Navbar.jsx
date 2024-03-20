@@ -3,11 +3,12 @@ import { MdOutlineEmail } from "react-icons/md";
 import "../style/Navbar.css";
 import slika from "../components/photo/logo.png";
 
-
 const Navbar = () => {
   return (
     <div className="navbar-container">
-      <img src={slika} alt="logo" />
+      <Link to="/">
+        <img src={slika} alt="logo" />
+      </Link>
       <nav>
         <ul>
           <li>
@@ -21,7 +22,6 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      
       <MdOutlineEmail className="email" />
     </div>
   );
