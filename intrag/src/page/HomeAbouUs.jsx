@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import CompanyInfo from "../components/CompanyInfo";
 import Promotion from "../components/Promotion";
 
 export const AboutUs = () => {
@@ -6,6 +7,7 @@ export const AboutUs = () => {
     <>
       <Banner />
       <Promotion />
+      <CompanyInfo />
     </>
   );
 };

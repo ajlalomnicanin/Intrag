@@ -1,0 +1,30 @@
+.slider {
+  overflow: hidden;
+  position: relative;
+  width: auto;
+  height: 100px;
+}
+
+.slide-track {
+  display: flex;
+  align-items: center;
+  animation: scroll 40s linear infinite;
+  /* Podešavanje širine slajdera na osnovu broja slajdova */
+  width: calc(200px * 18);
+}
+
+@keyframes scroll {
+  0% {
+    /* Početna pozicija sa slajderom potpuno na desnoj ivici */
+    transform: translateX(calc(-100% + 200px));
+  }
+  100% {
+    /* Krajnja pozicija sa slajderom potpuno na levoj ivici */
+    transform: translateX(0);
+  }
+}
+
+.slide {
+  height: 150px; /* Povećajte visinu slike */
+  width: 200px; /* Povećajte širinu slike */
+}

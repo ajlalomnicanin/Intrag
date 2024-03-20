@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Anybody:ital,wght@0,100..900;1,100..900&family=Arapey:ital@0;1&family=Fanwood+Text:ital@0;1&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-  font-family: "Arbutus Slab", sans-serif;
   box-sizing: border-box;
 }
 
 .navbar-container {
+  font-family: "Arbutus Slab", sans-serif;
   width: 80%;
   height: 80px;
   margin: auto;

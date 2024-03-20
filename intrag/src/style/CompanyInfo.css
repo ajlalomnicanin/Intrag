@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Anybody:ital,wght@0,100..900;1,100..900&family=Arapey:ital@0;1&family=Fanwood+Text:ital@0;1&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap");
+
+.company-info {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.company-left h1 {
+  font-weight: 100;
+  padding: 0 20px;
+  font-family: "Arbutus Slab", sans-serif;
+}
+.company-left section {
+  background-color: aquamarine;
+}
