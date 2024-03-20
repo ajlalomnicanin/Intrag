@@ -2,13 +2,14 @@
 
 * {
   font-family: "Arbutus Slab", sans-serif;
+  box-sizing: border-box;
 }
-
 
 .navbar-container {
   width: 80%;
   height: 80px;
   margin: auto;
+  padding: 0 20px;
   background-color: rgba(252, 252, 252, 0.01);
   background: linear-gradient(
     to right,
@@ -35,4 +36,14 @@
 .navbar-container ul li a {
   text-decoration: none;
   color: black;
+}
+.email {
+  padding: 10px;
+  border: 1px solid #cce6ff;
+  background-color: #cce6ff;
+  border-radius: 50%;
+  position: relative; /* Postavite relativni položaj */
+  width: 45px;
+  height: 45px;
+  color: #000000;
 }

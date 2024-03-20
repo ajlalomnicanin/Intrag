@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
-import { AiFillMessage } from "react-icons/ai";
+import { MdOutlineEmail } from "react-icons/md";
 import "../style/Navbar.css";
+import slika from "../components/photo/logo.png";
 
-function Navbar() {
+
+const Navbar = () => {
   return (
     <div className="navbar-container">
-      <img src="" alt="" />
+      <img src={slika} alt="logo" />
       <nav>
         <ul>
           <li>
@@ -19,9 +21,9 @@ function Navbar() {
           </li>
         </ul>
       </nav>
-      <AiFillMessage />
+      
+      <MdOutlineEmail className="email" />
     </div>
   );
-}
-
+};
 export default Navbar;
