@@ -30,10 +30,12 @@ const CompanyInfo = () => {
         <button>Vidi više</button>
       </div>
       <div className="company-right">
-        <img src={info2} alt="" />
-        <img src={info4} alt="" />
-        <img src={info3} alt="" />
-        <img src={info1} alt="" />
+        <div>
+          <img src={info2} alt="" />
+          <img src={info4} alt="" />
+          <img src={info3} alt="" />
+          <img src={info1} alt="" />
+        </div>
       </div>
     </div>
   );

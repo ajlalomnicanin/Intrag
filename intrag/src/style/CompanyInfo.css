@@ -8,10 +8,91 @@
 }
 
 .company-left h1 {
+  text-shadow: 2px 2px 4px rgba(185, 182, 182, 0.5); /* Horizontalno pomeranje, vertikalno pomeranje, razmazivanje, boja */
   font-weight: 100;
   padding: 0 20px;
-  font-family: "Arbutus Slab", sans-serif;
+}
+.company-left {
+  padding: 50px 0 0;
 }
 .company-left section {
-  background-color: aquamarine;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 20px 15px 0 0;
+  line-height: 1.5;
+}
+.company-left section h3 {
+  font-weight: 300;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(185, 182, 182, 0.5);
+}
+.company-left button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #cce6ff;
+  border: 1px solid #cce6ff;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.company-left button:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 300;
+}
+/*  */
+.company-right div {
+  padding: 130px 0px 0px;
+  display: grid;
+  grid-template-columns: 300px 380px;
+  grid-template-rows: 280px 280px;
+}
+
+.company-right div img:nth-child(1) {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  z-index: 1;
+}
+.company-right div img:nth-child(1):hover {
+  transform: scale(1.1);
+  z-index: 5;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.company-right div img:nth-child(2) {
+  position: relative;
+  left: 30px;
+}
+.company-right div img:nth-child(2):hover {
+  transform: scale(1.1);
+  z-index: 5;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.company-right div img:nth-child(3) {
+  position: relative;
+  left: 50px;
+  top: 50px;
+  z-index: 3;
+}
+
+.company-right div img:nth-child(3):hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.company-right div img:nth-child(4) {
+  position: relative;
+  right: 50px;
+  bottom: 60px;
+  z-index: 2;
+}
+.company-right div img:nth-child(4):hover {
+  transform: scale(1.1);
+  z-index: 5;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
