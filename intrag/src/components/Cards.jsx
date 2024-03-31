@@ -132,6 +132,7 @@ import React, { useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import Card1 from "../components/photo/Card1.png";
 import Card2 from "../components/photo/Card2.png";
+import "../style/Cards.css";
 
 const data = [
   {
@@ -165,12 +166,15 @@ const Cards = () => {
   };
 
   return (
-    <div>
-      <h2>Čime se bavimo?</h2>
+    <div className="mainn">
+      <h1 className="h1" style={{ fontSize: "29px", marginBottom: "40px" }}>
+        Čime se bavimo?
+      </h1>
       <section>
         {data.map((item, index) => (
-          <div key={index} onClick={() => toggleCard(index)}>
+          <div className="card" key={index} onClick={() => toggleCard(index)}>
             <button
+              className="card-button"
               style={{
                 backgroundColor:
                   activeIndex === index ? item.backgroundColor : "white",

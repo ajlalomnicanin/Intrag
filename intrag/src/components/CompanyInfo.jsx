@@ -8,7 +8,7 @@ const CompanyInfo = () => {
   return (
     <div className="company-info">
       <div className="company-left">
-        <h1>Priča o Intrag štampariji</h1>
+        <h1 className="h1">Priča o Intrag štampariji</h1>
         <section>
           <h3>Naša misija</h3>
           <p>

@@ -4,7 +4,7 @@ function Banner() {
   return (
     <div className="main">
       <div className="left">
-        <h1 className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-red-500 rounded-full">
+        <h1>
           Vizualni identitet <br /> iz snova
         </h1>
         <p>
