@@ -1,7 +1,8 @@
 import Banner from "../components/Banner";
-import Cards from "../components/Cards";
 import CompanyInfo from "../components/CompanyInfo";
+import Panels from "../components/Panels";
 import Promotion from "../components/Promotion";
+import App1 from "../components/first";
 
 export const AboutUs = () => {
   return (
@@ -9,7 +10,8 @@ export const AboutUs = () => {
       <Banner />
       <Promotion />
       <CompanyInfo />
-      <Cards />
+      <Panels />
+      <App1 />
     </>
   );
 };

@@ -11,7 +11,7 @@ function Banner() {
           Sa strašću prema grafici i vrhunskom digitalnom štampom, pružamo
           personalizovane usluge dizajna i štampe koje ističu vaš brend.
         </p>
-        <button>Upit za narudžbu</button>
+        <button className="button">Upit za narudžbu</button>
       </div>
       <div className="right">
         <img src={bannerphoto} alt="" />

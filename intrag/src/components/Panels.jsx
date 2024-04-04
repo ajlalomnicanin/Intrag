@@ -130,9 +130,9 @@
 
 import React, { useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
-import Card1 from "../components/photo/Card1.png";
-import Card2 from "../components/photo/Card2.png";
-import "../style/Cards.css";
+import Foto1 from "../components/photo/Foto1.png";
+import Foto2 from "../components/photo/Foto2.png";
+import "../style/Panels.css";
 
 const data = [
   {
@@ -144,7 +144,7 @@ const data = [
     title: "Štampa ceradnih materijala",
     backgroundColor: "#d6f8ea",
     text: "U našem svijetu vizuelnog stvaralaštva, nudimo vrhunsku uslugu grafičkog dizajna i digitalne štampe koja nadmašuje očekivanja. Naš kreativni tim, inspirisan inovacijama i stručnošću, posvećen je stvaranju vizualnih identiteta koji se ističu. Od prvih skica do finalnog proizvoda, pridajemo posebnu pažnju detaljima kako bismo vašu priču prenijeli na način koji ostavlja neizbrisiv utisak.",
-    images: [Card1, Card2],
+    images: [Foto1, Foto2],
   },
   {
     title: "Sito štampa",
@@ -158,7 +158,7 @@ const data = [
   },
 ];
 
-const Cards = () => {
+const Panels = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleCard = (index) => {
@@ -184,7 +184,7 @@ const Cards = () => {
               <IoIosArrowForward />
             </button>
             {activeIndex === index && (
-              <div>
+              <div className="right-p">
                 {item.images && (
                   <div>
                     {item.images.map((image, imgIndex) => (
@@ -193,6 +193,7 @@ const Cards = () => {
                   </div>
                 )}
                 <p>{item.text}</p>
+                <button className="button">Upit za narudžbu</button>
               </div>
             )}
           </div>
@@ -202,4 +203,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default Panels;
